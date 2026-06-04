@@ -7,3 +7,10 @@ for (var i = 0; i < 5; i++) {
 }
 
 // Then write the while loop version below
+var sum2 = 0;
+var i = 0;
+while(i < 5){
+    sum2 += i;
+    console.log("My current sum2 is: " + sum2);
+    i++;
+}
